@@ -17,4 +17,4 @@ RUN npm update && \
 
 EXPOSE 8080
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "test" ]

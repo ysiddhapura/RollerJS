@@ -4,7 +4,6 @@
   "description": "typescript sandbox",
   "main": "./src/server.ts",
   "scripts": {
-    "start": "ts-node ./src/server.ts",
     "test": "npx jest",
     "mutate": "npx stryker run"
   },
