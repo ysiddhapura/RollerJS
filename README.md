@@ -23,6 +23,6 @@ It will produce a coverage report at `src/coverage/lcov-report/index.html`
 
 **Run mutation tests:**
 
-```docker run -v "$(pwd)/src":/sandbox/src -it ts-sandbox npm run mutate```
+```docker run -v "$(pwd)/src":/sandbox/src -it testing-quiz npm run mutate```
 
 Mutation test report will be available at `src/mutation/stryker.html`
