@@ -30,7 +30,7 @@ test("If the Roll is between 1-entered value, should increment map value", () =>
   let roll: number = entry.roll(3);
   let incre: Map<number, number> = entry.distribution();
   let check: number = incre.get(3)
-  expect(check).toBe(2);
+  expect(check).toBe(1);
 
 });
 
